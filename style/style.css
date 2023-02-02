@@ -1,0 +1,166 @@
+
+/*--------------Font Link--------------*/
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/*---------------Body------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #edf1fd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/*-----------About Section--------------*/
+li{
+    list-style: none;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+button{
+    background-color: #139237;
+    padding: 4px 10px;
+    cursor: pointer;
+    color: #ffff;
+    border: 1px solid #ffff;
+    border-radius: 5px;
+    font-weight: 600;
+    width: fit-content;
+}
+button:hover {
+    background-color: #fff;
+    color: red;
+    border: 1px solid #0000;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 30px;
+}
+nav ul li:hover {
+    text-decoration: underline;
+    font-weight: 900;
+   /* background-color: Red; */
+
+}
+
+/*---------------logo------------------*/
+
+nav .logo{
+    display: flex;
+
+}
+.a{
+    color: #db4d10;
+    font-size:  50px;
+    font-weight: bold;
+}
+.b{
+    color: #fe0022f4;
+    font-size:  50px;
+    font-weight: bold;
+}
+.c{
+    color: #db6510;
+    font-size:  50px;
+    font-weight: bold;
+}
+/*---------------logo End------------------*/
+.search-filed{
+    display: flex;
+    gap: 30px;
+}
+input{
+    padding: 8px 10px;
+}
+/*------------Hero Section----------------*/
+
+.hero-section{
+    display: flex;
+    align-items: center;
+}
+
+.hero-left-section{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    padding: 100px;
+}
+.hero-left-section h1 span{
+    color: #ec0909;
+    font-weight: 900;
+}
+.hero-left-section p{
+    font-weight: 500;
+}
+.hero-left-section p span{
+    font-weight: 700;
+    color: #ec0909;
+}
+
+.hero-right-section{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.hero-right-section-btn{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.hero-right-section-btn a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero-right-section-btn:hover{
+    background-color: #db6510;
+}
+
+.hero-right-section img{
+    height: 300px;
+    width: 310px;
+    border-radius: 50%;
+}
+/*------------Footer----------------*/
+footer{
+ font-weight: 600;
+ display: flex;
+ padding: 20px 0;
+ justify-content: space-around;
+}
+footer ul{
+ display: flex;
+ align-items: center;
+ gap: 30px;
+}
+
+/* ---------footer icons---------- */
+.icon{
+    font-size: 30px;
+}
+
+
+/* Mobile Responsive Pending*/
